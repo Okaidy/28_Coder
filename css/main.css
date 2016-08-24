@@ -1,0 +1,177 @@
+/* Tu CSS va aqui */
+@media screen and (max-width: 600px) {
+	/*cambia el color de las letras de menu a naranja*/
+	a.color{
+		color: rgb(255,72,0);
+	}
+	/*cambia el fodo de menu*/
+	nav.fondo{
+		background-color:white; 
+	}
+	/*cambia la altura del fondo*/
+	header.imgfondo{
+		height: 600px;
+		padding-top: 20%;
+	}
+	/*modifica el tamaño del boton*/
+	div.boton{
+		width: 40%;
+		margin-top: 20%;
+	}
+	/*margenes de separacion*/
+	hr.margen{
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	div.contenedor{
+		width: 100%;
+	}
+	/*cambia tamaño de fotos de trabajos*/
+	div.foto{
+		height: 222px;
+	}
+	div.col-xs-12{
+		padding:0px;
+	}
+}
+.contenedor{
+	width: 66%;
+	margin:auto;
+}
+/*color letras menu*/
+.color{
+	color: white;
+}
+/*color hamburguesa*/
+.lgray{
+	background-color: lightgray;
+}
+/*fondo para menu*/
+.fondo{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+/*imagen de fondo para header*/
+.imgfondo{
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 680px;
+	background-position: center center;
+	padding-top: 13%;
+}
+/*color de letra blanca*/
+.blanca{
+	color: white;
+}
+/*fondo naranja*/
+.orange{
+	background-color: rgb(255,72,0);
+}
+/*estilo para lineas separadoras*/
+.rayita{
+	height: 4px;
+	width: 10%;
+	border:none;
+	border-radius: 20%;
+}
+/*boton de header*/
+.boton{
+	width:25%;
+	border-radius: 50px;
+	padding: 1%;
+	margin:auto;
+	border:none;
+}
+/*fotos de trabajo*/
+.foto{
+	height: 242px;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+#uno{
+	background-image: url(../img/1.jpg);
+}
+#dos{
+	background-image: url(../img/2.jpg);
+}
+#tres{
+	background-image: url(../img/3.jpg);
+}
+#cuatro{
+	background-image: url(../img/4.jpg);
+}
+#cinco{
+	background-image: url(../img/5.jpg);
+}
+#seis{
+	background-image: url(../img/6.jpg);
+}
+/*fo do negro*/
+.negro{
+	background: #181818;
+}
+/*fondo blanco*/
+.white{
+	background: white;
+}
+/*margen de arriba*/
+.mgt{
+	margin-top: 10%;
+}
+/*margen de abajo*/
+.mgb{
+	margin-bottom: 10%;
+}
+/*color de letra o iconos naranja*/
+.naranja{
+	color: rgb(255,72,0);
+}
+/*marede arriba*/
+.mg5{
+	margin-top: 5%;
+}
+/*caja que contiene el texto */
+.texto { 
+	opacity: 0; 
+	filter: alpha(opacity=30); 
+	background-color: rgba(255,72,0,0.3);
+	-webkit-transition:opacity 0.2s;
+	height: 242px;
+	padding-top: 20%;
+}
+/*se ve visible la caja de texto*/
+.texto:hover { 
+	opacity:1; 
+	font-weight:700; 
+ }
+ /*quito padding para que div.texto no deje margenes*/
+div.col-lg-4{
+	padding: 0px;
+}
+/*gira los iconos de telefono y mensaje*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+/*hace crecer*/
+.grow i {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.grow i:hover {
+  font-size: 5em;
+}
